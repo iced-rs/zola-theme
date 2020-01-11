@@ -1,0 +1,19 @@
+@import "./iced.scss";
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.container-links {
+  display: flex;
+
+  & a {
+    margin: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: $iced-black;
+  }
+}

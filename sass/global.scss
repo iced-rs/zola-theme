@@ -1,0 +1,21 @@
+@import "./iced.scss";
+
+// Standardizes padding & margin for all browsers
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+html {
+  background-color: $iced-white;
+}
+
+// Useful Vertical & Horizontal fillers
+.v-filler {
+  height: 100%;
+}
+
+.h-filler {
+  width: 100%;
+}
