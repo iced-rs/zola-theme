@@ -49,3 +49,13 @@
 .gradient {
   background: linear-gradient(45deg, $iced-main-2, $iced-main-3);
 }
+
+.colored {
+  &:nth-child(odd) {
+    background: linear-gradient(225deg, $iced-main-3, $iced-main-2);
+  }
+
+  &:nth-child(even) {
+    background: linear-gradient(135deg, $iced-main-2, $iced-main-3);
+  }
+}
