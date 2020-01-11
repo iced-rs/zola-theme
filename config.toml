@@ -17,3 +17,6 @@ description = "Iced.rs' Zola Theme"
 
 # Put all your custom variables here
 [extra]
+logo = "path/to/logo"
+headline = "This is Iced"
+subtitle = "A Pure-Rust, modular GUI Framework inspired by Elm"

@@ -12,6 +12,9 @@ demo = ""
 # be merged with user data, some kind of prefix or nesting is preferable
 # Use snake_casing to be consistent with the rest of Zola
 [extra]
+logo = ""
+headline = ""
+subtitle = ""
 
 # The theme author info
 [author]
