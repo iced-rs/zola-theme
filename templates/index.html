@@ -10,6 +10,7 @@
     {% block css %}
     <link rel="stylesheet" href="{{ get_url(path="global.css", trailing_slash=false) }}">
     <link rel="stylesheet" href="{{ get_url(path="header.css", trailing_slash=false) }}">
+    <link rel="stylesheet" href="{{ get_url(path="footer.css", trailing_slash=false) }}">
     <link rel="stylesheet" href="{{ get_url(path="one_page.css", trailing_slash=false) }}">
     {% endblock css %}
 
@@ -35,7 +36,30 @@
             <h2>{{ config.extra.subtitle }}</h2>
         </div>
         <div class="v-filler"></div>
+        <div class="container-cta">
+            <a href="/docs" class="button-cta primary">Get started</a>
+            <a href="#features" class="button-cta">Learn more</a>
+        </div>
+        <div class="v-filler"></div>
     </div>
+
+    <div class="one-page-part" id="features">
+        <h1>Key Features</h1>
+    </div>
+
+    <div class="one-page-part" id="examples">
+        <h1>Code Examples / Demo</h1>
+    </div>
+
+    <div class="one-page-part" id="call-to-action">
+        <h1>Call to action</h1>
+    </div>
+
+    <div class="one-page-part" id="addtional-features">
+        <h1>Additional features</h1>
+    </div>
+
+    {% include "partials/footer.html" %}
 
 </body>
 

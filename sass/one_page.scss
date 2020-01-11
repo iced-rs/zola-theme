@@ -15,7 +15,37 @@
   }
 }
 
+.container-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .button-cta {
+    padding: 1em;
+    margin: 0.5em;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid $iced-white;
+    border-radius: 2px;
+
+    transition: all 0.5s ease;
+
+    &.primary {
+      background-color: $iced-white;
+      color: $iced-black;
+    }
+
+    &:hover {
+      background-color: $iced-accent;
+      color: $iced-white;
+    }
+
+    & > .primary {
+      color: red;
+    }
+  }
+}
+
 .gradient {
-  background: linear-gradient(45deg, $iced-main, $iced-white);
-  //background: linear-gradient(45deg, blue, red);
+  background: linear-gradient(45deg, $iced-main-2, $iced-main-3);
 }
