@@ -13,6 +13,8 @@ demo = ""
 # Use snake_casing to be consistent with the rest of Zola
 [extra]
 logo = ""
+
+[extra.onepage]
 headline = ""
 subtitle = ""
 
