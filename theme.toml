@@ -17,6 +17,7 @@ logo = ""
 [extra.onepage]
 headline = ""
 subtitle = ""
+main_features = []
 
 # The theme author info
 [author]

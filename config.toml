@@ -22,3 +22,8 @@ logo = "path/to/logo"
 [extra.onepage]
 headline = "This is Iced"
 subtitle = "A Pure-Rust, modular GUI Framework inspired by Elm"
+main_features = [
+    { logo = "Feat1_Logo", title = "Feature 1", subtitle = "Subtitle feature 1", cta_text = "Learn more", cta_link="https://google.com" },
+    { logo = "Feat2_Logo", title = "Feature 2", subtitle = "Subtitle feature 2", cta_text = "Learn more", cta_link="https://duckduckgo.com" },
+    { logo = "Feat3_Logo", title = "Feature 3", subtitle = "Subtitle feature 3", cta_text = "Learn more", cta_link="https://qwant.com" },
+]

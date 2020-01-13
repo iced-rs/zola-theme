@@ -45,6 +45,18 @@
 
     <div class="one-page-part colored" id="features">
         <h1>Key Features</h1>
+        <div class="container-features">
+            {% for feature in config.extra.onepage.main_features -%}
+            <div class="main-feature">
+                <img src="{{ feature.logo }}" alt="Logo_Feature">
+                <h2>{{ feature.title }}</h2>
+                <p>{{ feature.subtitle}}</p>
+                {% if feature.cta_text and feature.cta_link %}
+                <a class="button-cta" href="{{ feature.cta_link }}">{{ feature.cta_text }}</a>
+                {% endif %}
+            </div>
+            {%- endfor %}
+        </div>
     </div>
 
     <div class="one-page-part colored" id="examples">
